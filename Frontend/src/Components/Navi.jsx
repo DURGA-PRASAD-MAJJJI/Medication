@@ -38,7 +38,7 @@ const Navi = () => {
         ) : (
           <button onClick={() => navigate('Signin')} className="bg-primary text-white px-6 py-2 rounded-full font-light block md:block">CREATE ACCOUNT</button>
         )}
-        {!token && <div><a href="http://localhost:5174/"><button className="border border-primary text-primary px-4 py-2 rounded-full shadow-sm text-sm hover:bg-primary hover:text-white transition-all">Admin & Doctors Panel</button></a></div>}
+        {!token && <div><a href="https://medication-admin.onrender.com"><button className="border border-primary text-primary px-4 py-2 rounded-full shadow-sm text-sm hover:bg-primary hover:text-white transition-all">Admin & Doctors Panel</button></a></div>}
 
         <div>
           <img onClick={() => setShowMenu(true)} className="w-8 md:hidden cursor-pointer" src={assets.menu_icon} alt="Menu Icon" />
