@@ -2,7 +2,6 @@ import validator from 'validator'
 import bcrypt from 'bcrypt'
 import userModel from '../models/userModel.js'
 import jwt from 'jsonwebtoken'
-import { json } from 'react-router-dom'
 import { v2 as cloudinary } from "cloudinary";
 import doctorsModel from '../models/doctorsModels.js'
 import appointmentModel from '../models/appointmentModel.js'
